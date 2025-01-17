@@ -33,9 +33,9 @@ export default function Home() {
 
       <p className="w-full mt-28 mb-10 text-sm text-green-600 flex justify-center items-center gap-2">
         <span>Developed by</span>
-        <a href="https://www.linkedin.com/in/tahjib/" className="font-bold">
+        <a href="https://www.linkedin.com/in/harsh-bestmerndev/" className="font-bold">
           {" "}
-          Tahjib Hossain Leon
+          Harsh Mriduhash
         </a>
       </p>
     </div>

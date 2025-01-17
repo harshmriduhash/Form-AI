@@ -173,7 +173,7 @@ const FormSubmitComponent = (props: {
           >
             <p className="text-xs ">Never submit Passwords and OTP through FormEgde.Ai</p>
             <Logo url="#" color="!text-primary" />
-            <p className="text-sm">Developed by <a href="https://www.linkedin.com/in/tahjib/" className="font-bold">Tahjib Hossain Leon</a></p>
+            <p className="text-sm">Developed by <a href="https://www.linkedin.com/in/harsh-bestmerndev/" className="font-bold">Harsh Mriduhash</a></p>
           </div>
         </div>
       </div>

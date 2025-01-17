@@ -24,7 +24,7 @@ const NotAvaliable = () => {
       min-h-14 text-center flex flex-col items-center justify-center gap-2 pb-5"
       >
         <Logo url="#" color="!text-primary" />
-        <p className="text-sm">Developed by <a href="https://www.linkedin.com/in/tahjib/" className="font-bold">Tahjib Hossain Leon</a></p>
+        <p className="text-sm">Developed by <a href="https://www.linkedin.com/in/harsh-bestmerndev/" className="font-bold">Harsh</a></p>
       </div>
     </div>
   );
