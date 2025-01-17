@@ -3,26 +3,27 @@ import { FormBlockInstance, HandleBlurFunc } from "@/types";
 import React from "react";
 
 const ChildFormComponentWrapper = ({
-    blockInstance,
-    errorMessage,
-    isError,
-    handleBlur,
+  blockInstance,
+  errorMessage,
+  isError,
+  handleBlur,
 }: {
-    blockInstance: FormBlockInstance;
-    isError?: boolean;
-    errorMessage?: string;
-    handleBlur?: HandleBlurFunc;
+  blockInstance: FormBlockInstance;
+  isError?: boolean;
+  errorMessage?: string;
+  handleBlur?: HandleBlurFunc;
 }) => {
+  const FormComponent = FormBlocks[blockInstance.blockType]?.formComponent;
+  if (!FormComponent) return null;
 
-    const FormComponent = FormBlocks[blockInstance.blockType]?.formComponent;
-    if (!FormComponent) return null;
-
-    return <FormComponent
-        blockInstance={blockInstance}
-        isError={isError}
-        errorMessage={errorMessage}
-        handleBlur={handleBlur}
-    />;
+  return (
+    <FormComponent
+      blockInstance={blockInstance}
+      isError={isError}
+      errorMessage={errorMessage}
+      handleBlur={handleBlur}
+    />
+  );
 };
 
 export default ChildFormComponentWrapper;
