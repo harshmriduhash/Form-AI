@@ -11,7 +11,7 @@ export default function Home() {
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="#15ff00"
       />
-      <div className="w-full flex flex-col gap-1 items-center justify-center" >
+      <div className="w-full flex flex-col gap-1 items-center justify-center">
         <Hero />
 
         <div className="w-full relative max-w-5xl mx-auto">
@@ -26,18 +26,17 @@ export default function Home() {
             </div>
           </div>
         </div>
-
       </div>
       <LampDemo />
 
-
-
       <AnimatedTestimonialsDemo />
-
 
       <p className="w-full mt-28 mb-10 text-sm text-green-600 flex justify-center items-center gap-2">
         <span>Developed by</span>
-        <a href="https://www.linkedin.com/in/tahjib/" className="font-bold"> Tahjib Hossain Leon</a>
+        <a href="https://www.linkedin.com/in/tahjib/" className="font-bold">
+          {" "}
+          Tahjib Hossain Leon
+        </a>
       </p>
     </div>
   );
